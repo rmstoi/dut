@@ -1,2 +1,2 @@
 language: python
-script: dut.py
+script: ./dut.py
