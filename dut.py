@@ -2,4 +2,5 @@
 
 import sys
 
-sys.exit("FAIL!")
+# sys.exit("FAIL!")
+print "PASS"
