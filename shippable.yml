@@ -1,5 +1,17 @@
 language: python
 
 build:
+  pre_ci:
+    - echo "pre_ci"
+  pre_ci_boot:
+    - echo "pre_ci_boot"
   ci:
     - ./dut.py
+  post_ci:
+    - echo "post_ci"
+  on_success:
+    - echo "on_success"
+  on_failure:
+    - echo "on_failure"
+  always:
+    - echo "always"
